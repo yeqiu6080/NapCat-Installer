@@ -171,12 +171,12 @@ startdown() {
 
 update() {
     stop
-    curl -sSL https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh | sudo bash -s -- --docker n --cli y
+    curl -sSL https://ghfast.top/https://raw.githubusercontent.com/yeqiu6080/NapCat-Installer/main/script/install.sh | sudo bash -s -- --docker n --cli y
 }
 
 rebuild() {
     stop
-    curl -sSL https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh | sudo bash -s -- --docker n --cli y --force
+    curl -sSL https://ghfast.top/https://raw.githubusercontent.com/yeqiu6080/NapCat-Installer/main/script/install.sh | sudo bash -s -- --docker n --cli y --force
 }
 
 remove() {
